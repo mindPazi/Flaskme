@@ -16,7 +16,7 @@ import javax.swing.JButton
 class MyToolWindowFactory : ToolWindowFactory {
 
     init {
-        thisLogger().warn("Placeholder warning message for MyToolWindowFactory")
+        thisLogger().info("Placeholder warning message for MyToolWindowFactory")
     }
 
     override fun createToolWindowContent(project: Project, toolWindow: ToolWindow) {
