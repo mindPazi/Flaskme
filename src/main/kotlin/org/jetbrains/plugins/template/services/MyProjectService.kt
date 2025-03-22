@@ -10,6 +10,12 @@ class MyProjectService(private val project: Project) {
 
     init {
         LOG.info("🔧 MyProjectService initialized for ${project.name}")
+        LOG.info("🔧 MyProjectService initialized for ${project.name}")
+        LOG.info("🔧 MyProjectService initialized for ${project.name}")
+        LOG.info("🔧 MyProjectService initialized for ${project.name}")
+        LOG.info("🔧 MyProjectService initialized for ${project.name}")
+        LOG.info("🔧 MyProjectService initialized for ${project.name}")
+        LOG.info("🔧 MyProjectService initialized for ${project.name}")
     }
 
     fun getRandomNumber(): Int = (0..100).random()
