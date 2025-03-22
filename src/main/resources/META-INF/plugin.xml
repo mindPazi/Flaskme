@@ -1,18 +1,18 @@
 <idea-plugin>
-    <id>org.jetbrains.plugins.template</id>
+    <id>com.github.mindpazi.flaskme</id>
     <name>Flaskme</name>
-    <vendor>JetBrains</vendor>
+    <vendor>mindpazi</vendor>
 
     <depends>com.intellij.modules.python</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="org.jetbrains.plugins.template.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="org.jetbrains.plugins.template.activity.MyActivity"/>
+        <toolWindow factoryClass="com.github.mindpazi.flaskme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <postStartupActivity implementation="com.github.mindpazi.flaskme.activity.MyActivity"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="org.jetbrains.plugins.template.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="com.github.mindpazi.flaskme.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
 </idea-plugin>

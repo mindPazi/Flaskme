@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template.services
+package com.github.mindpazi.flaskme.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.project.Project

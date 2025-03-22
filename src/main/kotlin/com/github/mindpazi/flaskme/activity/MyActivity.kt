@@ -1,10 +1,10 @@
-package org.jetbrains.plugins.template.activity
+package com.github.mindpazi.flaskme.activity
 
 import com.intellij.openapi.startup.ProjectActivity
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.diagnostic.Logger
 import com.intellij.openapi.diagnostic.thisLogger
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.mindpazi.flaskme.services.MyProjectService
 
 class MyActivity : ProjectActivity {
 
